@@ -1,0 +1,27 @@
+/* Modify the background color */
+          
+.navbar-custom {
+    background-color: rgba(189, 209, 189, 0);
+}
+/* Modify brand and text color */
+  
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(71, 71, 71, 0.287);
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: futura;
+    font-size: 45px;
+    padding: 20px;
+}
+
+.size {
+    width: 620px;
+    height: 350px;
+}

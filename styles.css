@@ -1,14 +1,5 @@
 /* Modify the background color */
           
-.navbar-custom {
-    background-color: rgba(189, 209, 189, 0);
-}
-/* Modify brand and text color */
-  
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-    color: rgba(71, 71, 71, 0.287);
-}
 
 
 
@@ -27,6 +18,10 @@ h1 {
     width: 620px;
     height: 350px;
 }
+
+body {
+    background: #fbfbfb !important;
+    }
 
 .footer {
     margin-top: 10%;

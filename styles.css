@@ -31,14 +31,14 @@ h2 {
 }
 .bg-image {
           background-image: url('https://www.leaders-in-law.com/wp-content/uploads/2021/04/shutterstock_767410225.jpg.optimal-1030x585.jpg');
-          height: 400px;
+          height: 300px;
           margin-top: 57px;
         
 }
 /*Header*/
 .header {
   background: url(https://images.unsplash.com/photo-1415795854641-f4a487a0fdc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) center center / cover no-repeat ;
-  height: 210px;
+  height: 100px;
   margin-top: 57px;
 }
 /* Header */

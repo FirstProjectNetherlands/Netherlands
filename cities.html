@@ -20,7 +20,37 @@
 </style>
 <body>
 <!--Header-->
-<section  class="jumbotron text-center header">
+
+<!-- Navbar -->
+<nav class="nav navbar navbar-expand navbar-light bg-white fixed-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+      aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarExample01">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Countryside</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Activities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Art and Culture</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar -->
+<section class="header jumbotron text-center">
   <h1 class="display-3">CITIES</h1>
   <!-- <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> -->
 </section>
@@ -102,10 +132,9 @@
 
 
 <!--Upcoming Events-->
-
-
 <div class="container">
-<div class="row row-cols-1 row-cols-md-2 g-4 m-5">
+<div class="row row-cols-1 row-cols-md-2 g-4 m-4 justify-content-evenly">
+
   <div class="col">
     <div class="card">
       <img src="resources/images/koningsdag2.jpg" class="card-img-top" alt="King's Day Image">
@@ -142,7 +171,7 @@
   <div class="card-img-overlay text-white">
     <h2 class="card-title">WALDORF ASTORIA</h2>
     <p class="card-text">Amsterdam</p>
-    <a href="#" class="btn btn-secondary">Book</a>
+    <a href="#" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
   </div>
 </div>
 </div>
@@ -153,7 +182,7 @@
   <div class="card-img-overlay text-white">
     <h2 class="card-title">HOTEL INDIGO</h2>
     <p class="card-text">The Hague</p>
-    <a href="#" class="btn btn-secondary">Book</a>
+    <a href="#" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
   </div>
 </div>
 </div>
@@ -164,7 +193,7 @@
   <div class="card-img-overlay text-white">
     <h2 class="card-title">MAINPORT DESIGN HOTEL</h2>
     <p class="card-text">Rotterdam</p>
-    <a href="#" class="btn btn-secondary">Book</a>
+    <a href="#" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
   </div>
 </div>
 </div>
@@ -175,7 +204,7 @@
     <div class="card-img-overlay text-white">
       <h2 class="card-title">HOTEL PRINCENHOF</h2>
       <p class="card-text">Groningen</p>
-      <a href="#" class="btn btn-secondary">Book</a>
+      <a href="#" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
     </div>
   </div>
   </div>
@@ -186,10 +215,10 @@
       <div class="card-img-overlay text-white">
         <h2 class="card-title">GRAND HOTEL</h2>
         <p class="card-text">Utrecht</p>
-        <a href="#" class="btn btn-secondary">Book</a>
+        <a href="#" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
       </div>
     </div>
-    </div>
+  </div>
 
     <div class="col">
       <div class="card">
@@ -197,14 +226,13 @@
         <div class="card-img-overlay text-white">
           <h2 class="card-title">KRUISHEREN HOTEL</h2>
           <p class="card-text">Maastricht</p>
-          <a href="#" class="btn btn-secondary">Book</a>
+          <a href="#" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
         </div>
       </div>
-      </div>
-      
+    </div>
+  </div>    
+</div>
 
-</div>
-</div>
 <!--Hotels-->
 
   <!-- Footer -->

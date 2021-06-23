@@ -6,7 +6,7 @@
 
 /* Body */
 body {
-    background-color: #FFFBF0;
+    background-color: #fdfdfc;
 }
 /* Body */
 
@@ -24,7 +24,7 @@ h1 {
     font-size: 45px;
     padding: 20px 20px 20px 0px;
     padding-bottom: 0%;
-    color:#ffefc4
+    color: whitesmoke;
 }
 h2 {
     font-family: 'Futura';
@@ -104,7 +104,7 @@ a:hover {
   font-family: 'Oswald', sans-serif;
 }
 .card-text {
-  text-align: justify;
+  text-align: center;
 }
 .sub-heading {
   margin-top: 50px;
@@ -138,6 +138,12 @@ a:hover {
   margin-bottom: 100px;
   padding-top: 30px;
 }
+
+btn btn-secondary {
+  text-align: center;
+}
+
+
 /* Cities */
 /* Events */
 .content {

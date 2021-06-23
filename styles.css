@@ -56,7 +56,10 @@ h2 {
     margin-top: 10%;
 }
 
-
+.imgFooter {
+    width: auto; 
+    height: 65px;
+}
 a:link {
     color: white;
 }

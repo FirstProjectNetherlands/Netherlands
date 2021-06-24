@@ -245,6 +245,20 @@ btn btn-secondary {
 .fadeIn-bottom {
     top: 80%
 }
+
+.card-title-mp {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  
+  text-align: center;
+  font-size: 5vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  white-space: pre;
+  /* color: black; */
+}
 /* Events */
 /* Hotels */
 /* Hotels */

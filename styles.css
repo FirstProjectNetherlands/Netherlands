@@ -1,4 +1,7 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 
 
 /* Colors */
@@ -21,19 +24,20 @@ body {
 
 /*Header*/
 .h1-header{
-  font-family: 'Roboto', sans-serif;
-  color: #fdfdfc;
+  font-family: 'Hind', sans-serif;
+  font-weight: 700;
+  /* color: #fdfdfc; */
   font-size: 100px;
-  text-shadow: -1px 0 #8a8a53f1, 0 1px #8a8a53f1, 1px 0 #8a8a53f1, 0 -1px #8a8a53f1;
+  /* text-shadow: -1px 0 #8a8a53f1, 0 1px #8a8a53f1, 1px 0 #8a8a53f1, 0 -1px #8a8a53f1; */
   text-transform: uppercase;
   }
   .h2-header {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #fdfdfc;
   font-size: 60px;
-  font-weight: 900;
+  font-weight: 700;
   white-space: pre;
-  margin-top: 20px;
+  margin-top: 0px;
   /* text-shadow: -1px 0 #8a8a53f1, 0 1px #8a8a53f1, 1px 0 #8a8a53f1, 0 -1px #8a8a53f1; */
   }
 
@@ -244,6 +248,20 @@ btn btn-secondary {
 
 .fadeIn-bottom {
     top: 80%
+}
+
+.card-title-mp {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  
+  text-align: center;
+  font-size: 5vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  white-space: pre;
+  /* color: black; */
 }
 /* Events */
 /* Hotels */

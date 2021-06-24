@@ -5,7 +5,7 @@
 
 
 /* Colors */
-/* background color - #FFFBF0 */
+/* background color - #fdfdfc*/
 
 /* Body */
 body {
@@ -27,14 +27,14 @@ body {
   font-family: 'Hind', sans-serif;
   font-weight: 700;
   /* color: #fdfdfc; */
-  font-size: 100px;
+  font-size: 7vw;
   /* text-shadow: -1px 0 #8a8a53f1, 0 1px #8a8a53f1, 1px 0 #8a8a53f1, 0 -1px #8a8a53f1; */
   text-transform: uppercase;
   }
   .h2-header {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #fdfdfc;
-  font-size: 60px;
+  font-size: 4.5vw;
   font-weight: 700;
   white-space: pre;
   margin-top: 0px;
@@ -54,12 +54,7 @@ h1 {
 h2 {
     font-family: 'Lato', sans-serif;
 }
-.bg-image {
-          background-image: url('https://www.leaders-in-law.com/wp-content/uploads/2021/04/shutterstock_767410225.jpg.optimal-1030x585.jpg');
-          height: 300px;
-          margin-top: 57px;
-        
-}
+
 /*Header*/
 .header {
   background: url(https://images.unsplash.com/photo-1415795854641-f4a487a0fdc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) center center / cover no-repeat ;
@@ -71,13 +66,9 @@ h2 {
 /* Quotes */
 .noborder {
     border: none;
-    background-color: #FFFBF0;
+    background-color: #fdfdfc;
 }
-/* Cards */
-.noborder {
-    border: none;
-    background-color: #FFFBF0;
-}
+
 /* Footer */
 .footer {
     margin-top: 10%;
@@ -85,7 +76,8 @@ h2 {
 
 .imgFooter {
     width: auto; 
-    height: 50px;
+    height: 40px;
+    margin-bottom: 10px;
 }
 a:link {
     color: white;
@@ -114,13 +106,10 @@ a:hover {
   
 }
 .introduction-text {
-  margin-top: 10px;
-  margin-bottom: 30px;
   margin-left: 50px;
   margin-right: 50px;
-  padding: 30px;
   text-align: center;    
-  font-size: 2vw;
+  font-size: 1.9vw;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 

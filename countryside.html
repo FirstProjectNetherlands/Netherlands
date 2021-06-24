@@ -7,57 +7,43 @@
   <title>Countryside</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@100;200;300;500&family=Open+Sans&family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Lato:wght@100;300;400;700;900&family=M+PLUS+1p:wght@700;800;900&family=Montserrat:wght@600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<!--Header-->
-    <!-- Navbar -->
-    <nav class="nav navbar navbar-expand navbar-light bg-white fixed-top">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarExample01">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
               <a class="nav-link" href="#">Cities</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#">Countryside</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#">Activities</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#">Art and Culture</a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- Navbar -->
-    <section class="jumbotron text-center header">
-        <h1 class="display-3">Countryside</h1>
-        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-    </section>
-<!--Header-->
+      </nav>
+      <!-- Navbar -->
 
-<!--Other Destinations-->
+   <!-- Cover image -->
+   <div class="card mt-5">
+    <img class="card-img" src="/resources/images/countryside-cover1.jpg" alt="Card image">
+    <div class="card-img-overlay">
+    </div>
+    </div>
+  
+ 
+    <!-- Cover Image -->
+    <h3 class="sub-heading3">C O U N T R Y S I D E</h3>
 
-    <section id="header" class="jumbotron text-center">
-        <h1 class="display-3" style="color:blueviolet">COUNTRYSIDE</h1>
-        <!-- <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> -->
-      </section>
-      <!--Header-->
       <!--Page Description-->
       <div class="introduction-text">
         <!-- <div class="card-body"> -->
@@ -68,6 +54,7 @@
           <!-- </blockquote>
         </div> -->
       </div>
+
       <!--Page Description-->
       <!--Cards Cities-->
       <div class="container padd">
@@ -112,7 +99,7 @@
             </div>
             <div class="col">
               <div class="card h-100 rounded-0">
-                <img src="resources/images/lisse.jpg" class="card-img-top" alt="...">
+                <img src="resources/images/lisse-new.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">LISSE</h5>
                   <p class="card-text">Lisse is located at the heart of the flower-bulb region and thrives amid a sea of flowers in spring. The colorful flower fields and Keukenhof, the world’s biggest flower park, are an important attraction that draw thousands of tourists every year. Every spring, thousands of stunning flowers and tulips bloom at the same time for two months.</p>
@@ -132,14 +119,14 @@
       </div>
 
 
-      <h3 class="sub-heading">DO NOT MISS</h3>
+      <h3 class="sub-heading">DO NOT MISS !</h3>
 
 
 <!--Upcoming Events-->
 
 <div class="container">
 
-<div class="row row-cols-1 row-cols-md-2 g-4 m-5">
+<div class="row row-cols-1 row-cols-md-2 g-4 ms-5 me-5">
   <div class="col">
     <div class="card">
       <img src="resources/images/keukenhof1.jpg" class="card-img-top" alt="Keukenhof Garden">
@@ -181,7 +168,7 @@
 </div>
   
   <!--Upcoming Events-->
-  <h3 class="sub-heading2">MORE DESTINATIONS</h3>
+  <h3 class="sub-heading">MORE DESTINATIONS</h3>
 
 <!--More Destinations-->
 <div class="container container-hotels" >
@@ -191,7 +178,7 @@
 <div class="card">
   <img src="resources/images/edam.jpg" class="card-img"  alt="Edam"/>
   <div class="card-img-overlay text-white">
-    <h2 class="card-title-hotels">EDAM</h2>
+    <h2 class="card-title">EDAM</h2>
     <!-- <p class="card-text-hotels">Amsterdam</p>
     <a href="#" class="btn btn-secondary">Book</a> -->
   </div>

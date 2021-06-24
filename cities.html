@@ -7,54 +7,43 @@
     <title>Cities</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@100;200;300;500&family=Open+Sans&family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Lato:wght@100;300;400;700;900&family=M+PLUS+1p:wght@700;800;900&family=Montserrat:wght@600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
-<!-- Writing Styles Here Temporarily -->
-<style>
 
-</style>
 <body>
-<!--Header-->
+       <!-- Navbar -->
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#">Cities</a>
+              <a class="nav-link" href="#">Countryside</a>
+              <a class="nav-link" href="#">Activities</a>
+              <a class="nav-link" href="#">Art and Culture</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
 
-<!-- Navbar -->
-<nav class="nav navbar navbar-expand navbar-light bg-white fixed-top">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-      aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarExample01">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Cities</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Countryside</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Activities</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Art and Culture</a>
-        </li>
-      </ul>
+   <!-- Cover image -->
+
+   <div class="card mt-5">
+    <img class="card-img" src="/resources/images/ams.jpg" alt="Card image">
+    <div class="card-img-overlay">
+    <!-- <h2 class="card-text h2-header">C I T I E S</h2> -->
     </div>
-  </div>
-</nav>
-<!-- Navbar -->
-<section class="header jumbotron text-center">
-  <h1 class="display-3">CITIES</h1>
-  <!-- <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> -->
-</section>
-<!--Header-->
+    </div>
+    
+    <!-- Cover Image -->
+
+    <h3 class="sub-heading3">C I T I E S</h3>
 <!--Page Description-->
 <div class="introduction-text">
   <!-- <div class="card-body"> -->
@@ -103,7 +92,7 @@
           <img src="/resources/images/cititiesUtrecht2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">UTRECHT</h5>
-            <p class="card-text">Utrecht is the lively, beating heart of Holland. It was built around the Dom tower, which you can see from any point in the city, so there is no way you can get lost in the attractive, car-free city centre. Utrecht boasts beautiful canals with extraordinary wharf cellars housing cafés and terraces by the water. As well as the Dom tower, Utrecht boasts hundreds of other monuments that each contribute to the special atmosphere in this centuries-old university town.</p>
+            <p class="card-text">Utrecht is the lively beating heart of Holland. It was built around the Dom tower, which you can see from any point in the city, so there is no way you can get lost in the attractive, car-free city centre. Utrecht boasts beautiful canals with extraordinary wharf cellars housing cafés and terraces by the water. Utrecht boasts hundreds of other monuments that each contribute to the special atmosphere in this centuries-old university town.</p>
           </div>
         </div>
       </div>
@@ -112,7 +101,7 @@
           <img src="resources/images/citiesGroningen.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">GRONINGEN</h5>
-            <p class="card-text">Groningen, capital of the eponymous province in the northern part of Holland, is a lively city that has much to offer in terms of culture and events, beautiful historic monuments like the Martini Tower, great shopping districts for a wonderful shopping spree, and excellent restaurants. Groningen should definitely be on your to-do list!</p>
+            <p class="card-text">Groningen, the largest in the northern part of the Netherlands, is a lively city that has much to offer in terms of culture and events, beautiful historic monuments like the Martini Tower, great shopping districts for a wonderful shopping spree, and excellent restaurants. Groningen's compact city centre has been voted the best in the country multiple times. The city's nightlife revolves around its student population.</p>
           </div>
         </div>
       </div>
@@ -121,14 +110,14 @@
           <img src="resources/images/citiesMaastricht.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">MAASTRICHT</h5>
-            <p class="card-text">Maastricht is one of the oldest cities in Holland, as you will quickly discover when strolling through the historic inner city. Churches, city walls, monumental merchant houses and big squares merge seamlessly with a comprehensive and varied range of shops.</p>
+            <p class="card-text">Maastricht is one of the oldest cities in Holland, as you will quickly discover when strolling through the historic inner city. Churches, city walls, monumental merchant houses and big squares merge seamlessly with a comprehensive and varied range of shops. Maastricht is also known as a city of indulgence and culinary highlights. The city's celebration of Carnival is among the biggest and most festive in all of the Netherlands.</p>
           </div>
         </div>
       </div>
 </div>
 </div>
 <!--Cities Cards-->
-<h3 class="sub-heading">DO NOT MISS</h3>
+<h3 class="sub-heading">DO NOT MISS !</h3>
 
 
 <!--Upcoming Events-->
@@ -160,7 +149,7 @@
 </div>
   
   <!--Upcoming Events-->
-  <h3 class="sub-heading2">WHERE TO STAY</h3>
+  <h3 class="sub-heading">WHERE TO STAY</h3>
 <!--Hotels-->
 <div class="container container-hotels" >
   <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -171,7 +160,7 @@
   <div class="card-img-overlay text-white">
     <h2 class="card-title">WALDORF ASTORIA</h2>
     <p class="card-text">Amsterdam</p>
-    <a href="#" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
+    <a href="https://www.booking.com/hotel/nl/waldorf-astoria-amsterdam.en-gb.html" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
   </div>
 </div>
 </div>
@@ -182,7 +171,7 @@
   <div class="card-img-overlay text-white">
     <h2 class="card-title">HOTEL INDIGO</h2>
     <p class="card-text">The Hague</p>
-    <a href="#" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
+    <a href="https://www.booking.com/hotel/nl/indigo-the-hague-royal-palace.en-gb.html" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
   </div>
 </div>
 </div>
@@ -193,7 +182,7 @@
   <div class="card-img-overlay text-white">
     <h2 class="card-title">MAINPORT DESIGN HOTEL</h2>
     <p class="card-text">Rotterdam</p>
-    <a href="#" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
+    <a href="https://www.booking.com/hotel/nl/mainport-hotel.en-gb.html" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
   </div>
 </div>
 </div>
@@ -204,7 +193,7 @@
     <div class="card-img-overlay text-white">
       <h2 class="card-title">HOTEL PRINCENHOF</h2>
       <p class="card-text">Groningen</p>
-      <a href="#" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
+      <a href="https://www.booking.com/hotel/nl/prinsenhof-groningen.en-gb.html" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
     </div>
   </div>
   </div>
@@ -215,7 +204,7 @@
       <div class="card-img-overlay text-white">
         <h2 class="card-title">GRAND HOTEL</h2>
         <p class="card-text">Utrecht</p>
-        <a href="#" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
+        <a href="https://www.booking.com/hotel/nl/ghkarelv.en-gb.html" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
       </div>
     </div>
   </div>
@@ -226,7 +215,7 @@
         <div class="card-img-overlay text-white">
           <h2 class="card-title">KRUISHEREN HOTEL</h2>
           <p class="card-text">Maastricht</p>
-          <a href="#" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
+          <a href="https://www.booking.com/hotel/nl/kruisherenhotel.en-gb.html" class="btn btn-secondary position-absolute bottom-0 end-0 m-4">Book</a>
         </div>
       </div>
     </div>

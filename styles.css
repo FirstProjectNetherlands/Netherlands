@@ -93,9 +93,21 @@ a:hover {
   color: #ffefc4;
 }
     
-/* events */
-
-/* events */
+/* Likk on Images */
+a.linkOnPictures:link {
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+a.linkOnPictures:visited {
+color: white;
+text-decoration: none;
+}
+a.linkOnPictures:hover {
+text-decoration: none;
+color: white;
+}
+/* Link on Images */
 
 
 /* Cities */
